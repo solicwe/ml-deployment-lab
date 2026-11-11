@@ -14,7 +14,7 @@ ml-deployment-lab/
 ├─ templates/
 │  └─ main.html        # หน้าเว็บกรอกค่าและแสดงผลทำนาย
 ├─ model/              # สร้างอัตโนมัติเมื่อเทรน (ไม่ push ขึ้น GitHub)
-└─ screenshots/        # ภาพประกอบการทดสอบ
+└─ Screenshots/        # ภาพประกอบการทดสอบ
 ```
 
 ## วิธี Build และ Run ด้วย Docker
@@ -67,16 +67,16 @@ Invoke-WebRequest -UseBasicParsing -Uri "http://127.0.0.1:5000/predict" -Method 
 ## ภาพผลการทดสอบ
 
 ### โครงสร้างไฟล์โปรเจค
-![โครงสร้างไฟล์](screenshots/Structure.jpg)
+![โครงสร้างไฟล์](Screenshots/Structure.jpg)
 
 ### Docker image ที่สร้างสำเร็จ
-![docker images](screenshots/Docker-images.jpg)
+![docker images](Screenshots/Docker-images.jpg)
 
 ### รัน container สำเร็จ (Listening at 0.0.0.0:5000)
-![docker run](screenshots/Docker-run.jpg)
+![docker run](Screenshots/Docker-run.jpg)
 
 ### หน้าเว็บทำนายผล
-![หน้าเว็บ](screenshots/Web-predict.jpg)
+![หน้าเว็บ](Screenshots/Web-predict.jpg)
 
 ### ทดสอบ API ผ่าน PowerShell
-![ทดสอบ API](screenshots/API-test.jpg)
+![ทดสอบ API](Screenshots/API-test.jpg)
